@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.top{
+  padding: 60px 15px;
+  border-bottom: 3px solid #FFFFFF;
+  margin-top: 19%;
+}
+.top-wrapper{
+  display: flex;
+}
+.top-wrapper h1{
+  font-size: 8.0vw;
+  line-height: 1.5;
+  color: #FFFFFF;
+  text-align: left;
+  margin: auto 0;
+}
+.top-wrapper img{
+  margin-left: 20%;
+  width: 15%;
+}
+.about{
+  padding: 60px 15px 30px;
+  border-bottom: 3px solid #FFFFFF;
+}
+.about-wrapper{
+  text-align: left;
+}
+.about-name{
+  width: 100%;
+  border-bottom: 3px solid #FFFFFF;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.about-name p{
+  padding-bottom: 5px;
+}
+.about-name h2{
+  font-size: 3.0rem;
+}
+.about-description-box img{
+  width: 100%;
+  border-radius: 100%;
+  border: 3px solid #FFFFFF;
+  margin-top: 50px;
+}
+.about-chronology{
+  border-bottom: 3px solid #FFFFFF;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+.about-chronology li{
+  padding-bottom: 15px;
+}
+.about-introduction{
+  line-height: 1.5;
+}
+@media(min-width:500px){
+  .top{
+    margin-top: 88px;
+  }
+}
+@media(min-width:768px){
+  .top,.about{
+    padding: 60px 30px;
+  }
+  .about-description-box{
+    display: flex;
+    justify-content: space-between;
+  }
+  .about-description-box img{
+    width: 45%;
+    height: 60%;
+    object-fit: cover;
+    margin: auto 0;
+  }
+  .about-description{
+    width: 50%;
+  }
+  
+}
+@media(min-width:960px){
+  .about-name {
+    padding-bottom: 30px;
+    margin-bottom: 70px;
+  }
+  .about-name h2{
+    font-size: 5.5rem;
+  }
+  .about-name p{
+    padding-bottom: 30px;
+  }
+  .about-description,.about-name p{
+    font-size: 2.0rem;
+  }
+  .about-description-box img{
+    width: 30%;
+    height: 30%;
+    margin: auto;
+  }
+  .about-chronology{
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+  }
+  .about-chronology li{
+    padding-bottom: 30px;
+  }
+  .about-chronology br{
+    display: none;
+  }
+  .about-chronology span{
+    padding-left: 30px;
+  }
+  .about-introduction{
+    line-height: 2.0;
+  }
+}
+@media(min-width:1160px){
+  .top,.about{
+    padding: 60px 70px;
+  }
+}

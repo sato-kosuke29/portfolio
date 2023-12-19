@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* CSS Document */
+html {
+  font-size: 62.5%; /* 16px * 62.5% = 10px */
+  width: 100%;
+  box-sizing: border-box;
+}
+body {
+  color: #FFFFFF; /* RGB */
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+  font-weight: 500;
+  font-size: 1.6em;
+  line-height: 2.4rem;
+  text-align: center;
+  background-image: url("../image/body-background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15px;
+}
+.border{
+  border: 3px solid #FFFFFF;
+}
+a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+a:hover{
+  opacity: 0.5;
+}
+li{
+  list-style: none;
+}
+section h2 {
+  font-size: 2.4rem;
+}
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.header{
+  width:calc(100% - 36px);
+  border-top: 3px solid #FFFFFF;
+  border-bottom: 3px solid #FFFFFF;
+  padding: 15px;
+  margin-top: -3px;
+  position: fixed;
+  z-index: 999;
+}
+.header-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+.header-wrapper div{
+  text-align: left;
+}
+.header-wrapper img{
+  width: 30%;
+}
+.header-nav{
+  margin: auto 0;
+}
+.header-nav ul{
+  display: flex;
+}
+.header-nav ul li{
+  margin-left: 20px;
+}
+
+.footer{
+  padding: 30px 0;
+}
+.footer-wrapper small{
+  font-size: 1.3rem;
+}
+@media(min-width:768px){
+  body{
+    padding: 30px;
+  }
+  .header{
+    width:calc(100% - 66px);
+    padding: 15px 30px;
+  }
+  .header-nav ul li{
+    font-size: 2.0rem;
+    margin-left: 40px;
+  }
+}
+@media(min-width:1160px){
+  body{
+    padding: 50px;
+  }
+  .header{
+    width:calc(100% - 106px);
+    padding: 15px 70px;
+  }
+}

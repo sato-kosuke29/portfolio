@@ -1,0 +1,158 @@
+@charset "UTF-8";
+/* CSS Document */
+
+img{
+  width: 30%;
+}
+.top{
+  text-align: left;
+  padding: 60px 15px;
+  margin-top: 19%;
+  border-bottom: 3px solid #ffffff;
+}
+.top-wrapper h2{
+  border-bottom: 3px solid #FFFFFF;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+}
+.top-wrapper h1{
+  font-size: 3.0rem;
+  margin: 0 0 30px 0;
+}
+.top-wrapper h3{
+  margin-bottom: 10px;
+}
+.top-wrapper h3 a{
+  background-color: #FFFFFF;
+  color: #636363;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.top-mainvisual{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 50px;
+}
+.top-main_img-pc{
+  width: 75%;
+}
+.top-main_img-sp{
+  width: 22%;
+}
+.top-description{
+  padding-bottom: 20px;
+  border-bottom: 3px solid #FFFFFF;
+  margin-bottom: 50px;
+}
+.back-description{
+  padding-bottom: 20px;
+  border-bottom: 3px solid #FFFFFF;
+  margin-bottom: 20px;
+}
+.top-description_tool h3{
+  margin-bottom: 5px;
+}
+.slick{
+  background-color: #EEEEEE;
+  padding: 20px;
+  margin-bottom: 60px;
+}
+#works-img1,#works-img2,#works-img3,#works-img4{
+  width: 100%;
+  object-fit: contain;
+}
+.design-description h3{
+  font-size: 2.0rem;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 3px solid #FFFFFF;
+}
+.design-description p{
+  margin-bottom: 30px;
+}
+.design-description p:third-child{
+  margin: 0;
+}
+
+@media(min-width:500px){
+  .top{
+    margin-top: 88px;
+  }
+}
+@media(min-width:768px){
+  .top{
+    padding: 60px 30px;
+  }
+  .top-wrapper_title{
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .top-wrapper h1{
+    margin: 0 30px 0 0;
+  }
+  .top-wrapper h3{
+    margin: auto 0;
+  }
+  .top-wrapper h3 a{
+    font-size: 2.0rem;
+  }
+  .top-description{
+    display: flex;
+  }
+  .back-description{
+    width: 70%;
+    padding: 0 30px 0 0;
+    margin: 0;
+    border-bottom: 0px;
+    border-right: 3px solid #FFFFFF;
+  }
+  .top-description_tool{
+    padding-left: 30px;
+  }
+  .slick{
+    padding:30px 100px;
+    margin-bottom: 80px;
+  }
+  .design-description h3{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  .design-description p{
+    margin-bottom: 50px;
+  }
+}
+@media(min-width:960px){
+  .top{
+    padding: 60px 70px;
+  }
+  .top-wrapper h2{
+    font-size: 2.8rem;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+  }
+  .top-wrapper h1{
+    font-size: 3.5rem;
+  }
+  .top-wrapper_img{
+    width: 100%;
+    margin-bottom: 50px;
+  } 
+  .top-description{
+    margin-bottom: 80px;
+  }
+  .back-description{
+    width: 80%;
+    padding: 0 40px 0 0;
+    line-height: 1.5;
+  }
+  .top-description_tool{
+    padding-left: 30px;
+  }
+  .slick{
+    padding:50px 150px;
+    margin-bottom: 80px;
+  }
+  .design-description h3{
+    font-size: 2.4rem;
+  }
+}
